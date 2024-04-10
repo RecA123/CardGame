@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/new/character">
+        <file>C:/Users/33965/Desktop/resource/character/Collei.webp</file>
+        <file>C:/Users/33965/Desktop/resource/character/Diluc.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/character/cangjing.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/character/Diona.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/character/Fischl.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/character/Jean.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/character/Kokomi.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/character/Ningguang.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/character/Xingqiu.webp</file>
+        <file>C:/Users/33965/Desktop/resource/background.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/background2.png</file>
+        <file>C:/Users/33965/Desktop/resource/enemy/BingDun.webp</file>
+        <file>C:/Users/33965/Desktop/resource/enemy/HuoFu.webp</file>
+        <file>C:/Users/33965/Desktop/resource/enemy/LeiFu.webp</file>
+    </qresource>
+</RCC>

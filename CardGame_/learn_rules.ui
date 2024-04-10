@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>learn_rules</class>
+ <widget class="QWidget" name="learn_rules">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1942</width>
+    <height>1092</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1942</width>
+    <height>1092</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1942</width>
+    <height>1092</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1180</x>
+     <y>70</y>
+     <width>661</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>这里是规则</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>281</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>七圣召唤是一款使用牌组和对手一决胜负的游戏</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>561</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>一套牌组由角色牌和行动牌组成，控制我方场上的角色卡牌，击倒对方所有的角色卡牌，即可赢得胜利</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
