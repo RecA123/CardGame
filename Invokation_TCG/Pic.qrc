@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>C:/Users/33965/Desktop/resource/background.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/background2.png</file>
+        <file>C:/Users/33965/Desktop/resource/cangjing.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/Diluc.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/Diona.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/fire.png</file>
+        <file>C:/Users/33965/Desktop/resource/Fischl.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/grass.png</file>
+        <file>C:/Users/33965/Desktop/resource/guize.png</file>
+        <file>C:/Users/33965/Desktop/resource/HuoGun.png</file>
+        <file>C:/Users/33965/Desktop/resource/ice.png</file>
+        <file>C:/Users/33965/Desktop/resource/Jean.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/kaishi.png</file>
+        <file>C:/Users/33965/Desktop/resource/Kokomi.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/LeiShi.png</file>
+        <file>C:/Users/33965/Desktop/resource/lightning.png</file>
+        <file>C:/Users/33965/Desktop/resource/Ningguang.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/Shuipang.png</file>
+        <file>C:/Users/33965/Desktop/resource/ShuiShi.png</file>
+        <file>C:/Users/33965/Desktop/resource/tujian.png</file>
+        <file>C:/Users/33965/Desktop/resource/water.png</file>
+    </qresource>
+</RCC>

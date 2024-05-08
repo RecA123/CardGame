@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>C:/Users/33965/Desktop/resource/kaishi.png</file>
+        <file>C:/Users/33965/Desktop/resource/background.jpg</file>
+        <file>C:/Users/33965/Desktop/resource/tujian.png</file>
+        <file>C:/Users/33965/Desktop/resource/guize.png</file>
+        <file>C:/Users/33965/Desktop/resource/icon.webp</file>
+        <file>C:/Users/33965/Desktop/resource/background2.png</file>
+        <file>C:/Users/33965/Desktop/resource/Diluc.png</file>
+        <file>C:/Users/33965/Desktop/resource/Fischl.png</file>
+        <file>C:/Users/33965/Desktop/resource/Diona.png</file>
+        <file>C:/Users/33965/Desktop/resource/Jean.png</file>
+        <file>C:/Users/33965/Desktop/resource/kokomi.png</file>
+        <file>C:/Users/33965/Desktop/resource/ningguang.png</file>
+        <file>C:/Users/33965/Desktop/resource/back.png</file>
+        <file>C:/Users/33965/Desktop/resource/diluc_skill.png</file>
+        <file>C:/Users/33965/Desktop/resource/fischl_skill.png</file>
+        <file>C:/Users/33965/Desktop/resource/jean_skill.png</file>
+        <file>C:/Users/33965/Desktop/resource/yankui.webp</file>
+        <file>C:/Users/33965/Desktop/resource/attack.png</file>
+        <file>C:/Users/33965/Desktop/resource/skill.png</file>
+        <file>C:/Users/33965/Desktop/resource/burst.png</file>
+        <file>C:/Users/33965/Desktop/resource/fire.png</file>
+        <file>C:/Users/33965/Desktop/resource/grass.png</file>
+        <file>C:/Users/33965/Desktop/resource/lightning.png</file>
+        <file>C:/Users/33965/Desktop/resource/ice.png</file>
+        <file>C:/Users/33965/Desktop/resource/water.png</file>
+    </qresource>
+</RCC>
