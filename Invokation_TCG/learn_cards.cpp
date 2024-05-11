@@ -14,6 +14,8 @@ Learn_cards::Learn_cards(QWidget *parent) : QWidget(parent)
     fischl_skill.load(":/new/C:/Users/33965/Desktop/resource/fischl_skill.png");
     QPixmap jean_skill;
     jean_skill.load(":/new/C:/Users/33965/Desktop/resource/jean_skill.png");
+    QPixmap diona_skill;
+    diona_skill.load(":/new/C:/Users/33965/Desktop/resource/diona_skill.png");
     QLabel *skil_label = new QLabel(this);
     skil_label->move(120,20);
     MyPushButton *backward = new MyPushButton(":/new/C:/Users/33965/Desktop/resource/back.png");
@@ -57,6 +59,11 @@ Learn_cards::Learn_cards(QWidget *parent) : QWidget(parent)
     connect(diona, &QPushButton::clicked, this, [=](){
        diona->zoom1();
        diona->zoom2();
+       QTimer::singleShot(500, this, [=](){
+           skil_label->setPixmap(diona_skill);
+           skil_label->setFixedSize(400,950);
+           skil_label->setScaledContents(true);
+       });
 
     });
 

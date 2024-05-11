@@ -25,5 +25,29 @@
         <file>C:/Users/33965/Desktop/resource/lightning.png</file>
         <file>C:/Users/33965/Desktop/resource/ice.png</file>
         <file>C:/Users/33965/Desktop/resource/water.png</file>
+        <file>C:/Users/33965/Desktop/resource/be_hit.png</file>
+        <file>C:/Users/33965/Desktop/resource/end.png</file>
+        <file>C:/Users/33965/Desktop/resource/all_touzi.png</file>
+        <file>C:/Users/33965/Desktop/resource/fire_touzi.png</file>
+        <file>C:/Users/33965/Desktop/resource/grass_touzi.png</file>
+        <file>C:/Users/33965/Desktop/resource/ice_touzi.png</file>
+        <file>C:/Users/33965/Desktop/resource/lightning_touzi.png</file>
+        <file>C:/Users/33965/Desktop/resource/rock_touzi.png</file>
+        <file>C:/Users/33965/Desktop/resource/water_touzi.png</file>
+        <file>C:/Users/33965/Desktop/resource/wind_touzi.png</file>
+        <file>C:/Users/33965/Desktop/resource/diona_skill.png</file>
+        <file>C:/Users/33965/Desktop/resource/dead.png</file>
+        <file>C:/Users/33965/Desktop/resource/lose.png</file>
+        <file>C:/Users/33965/Desktop/resource/aozi.png</file>
+        <file>C:/Users/33965/Desktop/resource/jean_o.png</file>
+        <file>C:/Users/33965/Desktop/resource/shuimu.png</file>
+        <file>C:/Users/33965/Desktop/resource/jiuwu.png</file>
+        <file>C:/Users/33965/Desktop/resource/win.png</file>
+        <file>C:/Users/33965/Desktop/resource/ji.webp</file>
+        <file>C:/Users/33965/Desktop/resource/xiaopi.webp</file>
+    </qresource>
+    <qresource prefix="/music"/>
+    <qresource prefix="/">
+        <file>music.qrc</file>
     </qresource>
 </RCC>

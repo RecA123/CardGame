@@ -19,6 +19,7 @@ login::login(QWidget *parent)
     MyPushButton *begin = new MyPushButton(":/new/C:/Users/33965/Desktop/resource/kaishi.png");
     begin->setParent(this);
     begin->move(this->width()*0.44, this->height()*0.5);
+
     chooseScene = new choose;
     connect(begin, &QPushButton::clicked, this, [=](){
         //弹起特效

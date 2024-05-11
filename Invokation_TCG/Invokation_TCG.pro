@@ -1,5 +1,5 @@
 QT       += core gui
-
+QT += multimedia
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++11
@@ -19,10 +19,12 @@ SOURCES += \
     jean.cpp \
     kokomi.cpp \
     learn_cards.cpp \
+    lose.cpp \
     main.cpp \
     login.cpp \
     mypushbutton.cpp \
-    ningguang.cpp
+    ningguang.cpp \
+    win.cpp
 
 HEADERS += \
     battle.h \
@@ -36,8 +38,10 @@ HEADERS += \
     kokomi.h \
     learn_cards.h \
     login.h \
+    lose.h \
     mypushbutton.h \
-    ningguang.h
+    ningguang.h \
+    win.h
 
 FORMS += \
     login.ui
@@ -51,4 +55,7 @@ RESOURCES += \
     picture.qrc
 
 
-DISTFILES +=
+DISTFILES += \
+    C:/Users/33965/Desktop/resource/bgm.mp3 \
+    C:/Users/33965/Desktop/resource/jiuwu.png \
+    C:/Users/33965/Desktop/resource/lnc04-lpp1p.wav

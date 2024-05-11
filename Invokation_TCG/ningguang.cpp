@@ -3,6 +3,9 @@
 Ningguang::Ningguang(int life_value, int e, int ise, int w, bool isw):Character(life_value, e,ise,w,isw)
 {
     name = "凝光";
+    burst_cost = 3;
+    energy = 3;
+    is_energy = 0;
 }
 
 void Ningguang::normalAttack(Enemy *e)
