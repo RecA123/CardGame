@@ -10,17 +10,23 @@ login::login(QWidget *parent)
     , ui(new Ui::login)
 {
     ui->setupUi(this);
+    //设置窗口图标
     QIcon icon(":/new/C:/Users/33965/Desktop/resource/icon.webp");
     this->setWindowIcon(icon);
     QPixmap back;
     back.load(":/new/C:/Users/33965/Desktop/resource/background.jpg");
     this->setFixedSize(back.width()*1.5, back.height()*1.5);
     //this->setFixedSize()
+
+    //实例化按钮成员
     MyPushButton *begin = new MyPushButton(":/new/C:/Users/33965/Desktop/resource/kaishi.png");
     begin->setParent(this);
     begin->move(this->width()*0.44, this->height()*0.5);
 
+    //实例化子界面
     chooseScene = new choose;
+
+    //连接按钮和槽函数
     connect(begin, &QPushButton::clicked, this, [=](){
         //弹起特效
         begin->zoom1();

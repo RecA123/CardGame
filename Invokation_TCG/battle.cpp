@@ -183,6 +183,8 @@ battle::battle(int c1, int c2, int c3, QWidget *parent) : QWidget(parent)
     connect(char1, &QPushButton::clicked, this, [=](){
         if(otherTouzi()>=1){
             changeP1();
+
+            //减少骰子
             int num = 0;
             for(int i=0; ; i++){
                 for(int j=0; j<8; j++){
@@ -231,7 +233,9 @@ battle::battle(int c1, int c2, int c3, QWidget *parent) : QWidget(parent)
                 break;
             }
             small_round += 1;
+
             QTimer::singleShot(1500, this, [=](){
+                //判断敌人是否能够攻击
                   if(enemy->actTime<2 && !enemy->is_frozen){
                       if(big_round != 1 || small_round != 1){
                           if(enemy->burstRnd == 3){
@@ -852,6 +856,7 @@ int battle::otherTouzi()
 
 void battle::change_clicked()
 {
+    //结算召唤物功能
     if(fischl_s->pixmap() != nullptr && !fischl_s->pixmap()->isNull()){
         int damage = 1;
         if(enemy->getE() == 1 || enemy->getE() == 2 || enemy->getE() == 4){
@@ -975,6 +980,8 @@ void battle::normalAttack_clicked()
     e_hplable->setText(QString::number(enemy->gethp()));
     text->append("我方行动结束，敌方行动");
     text->append(" ");
+
+    //减少骰子
     int num0 = 0;
     for(int i=0; i<8; i++){
         if(touzi[i] == is_char->getE_type()){
@@ -1059,6 +1066,7 @@ void battle::elementalSkill_clicked()
     text->append("我方行动结束，敌方行动");
     text->append(" ");
 
+    //减少骰子
     int num=0;
     for(int i=0; i<8; i++){
         if(touzi[i] == is_char->getE_type()){
@@ -1256,6 +1264,7 @@ void battle::initial()
     getTouzi();
 }
 
+//切换角色
 void battle::changeP1()
 {
     char2->move(this->width()*0.5-105,700);

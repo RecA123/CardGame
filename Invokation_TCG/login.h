@@ -18,6 +18,7 @@ public:
     login(QWidget *parent = nullptr);
     ~login();
     void paintEvent(QPaintEvent*);
+    //子界面作为成员
     choose *chooseScene = NULL;
     Learn_cards *cardScene = NULL;
 private:

@@ -14,6 +14,7 @@ class MyPushButton : public QPushButton
 public:
     MyPushButton(QString normalImg);
     QPixmap Img;
+    //按钮弹跳动画
     void zoom1();
     void zoom2();
 signals:
